@@ -1,8 +1,7 @@
 {
-  "code": "9983",
+  "ticker": "9983",
   "date": "2025-09-01",
   "title": "9983 解析鑑定（2025-09-01）",
-  "tags": ["日足","BB","RSI","MACD"],
-  "summary": "25日線下・戻り弱め。戻り売り有利。",
-  "images": ["./img/1.jpeg"]
+  "scores": { "rafael": 50, "lumiel": 55, "clarita": 52, "avg": 52 },
+  "images": ["./img/2025-09-01-day.jpeg"]
 }
