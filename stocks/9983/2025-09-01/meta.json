@@ -2,6 +2,15 @@
   "ticker": "9983",
   "date": "2025-09-01",
   "title": "9983 解析鑑定（2025-09-01）",
-  "scores": { "rafael": 50, "lumiel": 55, "clarita": 52, "avg": 52 },
-  "images": ["./img/2025-09-01-day.jpeg"]
+  "scores": {
+    "rafael": 50,
+    "lumiel": 55,
+    "clarita": 52,
+    "avg": 52
+  },
+  "images": [
+    "./img/day.jpeg"
+  ],
+  "path": "chart-log/stocks/9983/2025-09-01",
+  "updatedAt": "2025-09-07T00:00:00Z"
 }
