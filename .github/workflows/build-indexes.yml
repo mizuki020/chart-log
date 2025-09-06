@@ -1,0 +1,25 @@
+name: Build indexes
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - "stocks/**"
+      - "scripts/build-indexes.js"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-node@v4
+        with: { node-version: '20' }
+      - run: node scripts/build-indexes.js
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: rebuild stock indexes & sitemap"
