@@ -1,0 +1,14 @@
+.topbar{
+  width:100%;
+  background:#0b0b0b10; /* 薄いグレー(ダークでも読める) */
+  backdrop-filter:saturate(180%) blur(6px);
+  border-bottom:1px solid #0001;
+  padding:10px 16px;
+  box-sizing:border-box;
+}
+.topbar .home{
+  color:var(--link);
+  text-decoration:none;
+  font-weight:600;
+}
+.topbar .home:hover{ text-decoration:underline; }
